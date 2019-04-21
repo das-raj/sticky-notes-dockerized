@@ -6,8 +6,10 @@ from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.decorators import login_required
 from notes.forms import SignUpForm
 from notes.models import Notes
+from django.contrib.auth.models import User
 # Create your views here.
 
+    
 def signup(request):
     if request.method == 'POST':
         form = SignUpForm(request.POST)
