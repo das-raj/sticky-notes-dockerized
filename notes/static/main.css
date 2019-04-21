@@ -1,6 +1,8 @@
 body {
-    background-image: linear-gradient(to bottom right, white, #03a9f4);
+    background-color: white; /* For browsers that do not support gradients */
+    background-image: linear-gradient(90deg, white, #03a9f4); /* Standard syntax (must be last) */
     font-family: 'Pacifico', cursive;
+    height: 100%;
 }
 
 .header{
@@ -84,28 +86,28 @@ legend{
 }
 
 #new-note-form{
-  margin-left: 485px;
-  margin-right: 495px;
+  margin-left: 37%;
+  margin-right: 37%;
   color: black;
-  padding-left: 55px;
+  padding-left: 3%;
   background-color: white;
   border-radius: 20px;
   border: 1px solid #000000;
 }
 
 #signup-form{
-  margin-left: 488px;
-  margin-right: 470px;
+  margin-left: 37%;
+  margin-right: 37%;
   color: black;
-  padding-left: 74px;
+  padding-left: 4%;
   background-color: white;
   border-radius: 5px;
   border: 1px solid #000000;
 }
 
 #login-form{
-  margin-left: 525px;
-  margin-right: 462px;
+  margin-left: 37%;
+  margin-right: 37%;
   color: black;
   padding-left: 52px;
   background-color: white;
