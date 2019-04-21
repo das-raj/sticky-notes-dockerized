@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'stickynotes',
         'USER': 'root',
-        'PASSWORD': 'root',
+        'PASSWORD': 'palakraj22',
         'HOST':'mysqldb'
     }
 }
