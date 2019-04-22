@@ -15,7 +15,7 @@ A website to create and manage quick notes that you need to take while surfing o
 4. Make sure that `port: 3306 and 8000` are not occupied, as those ports will be attached to services running in container
     - `sudo service mysql stop` to stop mysql service which runs on 3306 port
 5. Run the command `sudo docker-compose up`
-6. Check if container is running by the command,
+6. On a new terminal check if container is running by the command,
     -  `sudo docker-compose ps`
     -  `sudo docker ps`
     Also, make sure to check the status of the services 
