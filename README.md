@@ -19,7 +19,7 @@ A website to create and manage quick notes that you need to take while surfing o
     -  `sudo docker-compose ps`
     -  `sudo docker ps`
     Also, make sure to check the status of the services 
-7. Copy the container id of the container `quantiphi-workshop_mysqldb_1` by running `sudo docker ps`
+7. Copy the container id of the container `quantiphi-workshop_djangoweb_1` by running `sudo docker ps`
 8. Run the following migration command `sudo docker exec -it <copied_id> python3 manage.py migrate`
 
 ### Usage Guide
